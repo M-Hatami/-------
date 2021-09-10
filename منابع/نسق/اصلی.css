@@ -1,0 +1,56 @@
+@font-face {
+  font-family: یکان;
+  src: url(/منابع/قلم/یکان.woff);
+  src: url(/منابع/قلم/یکان.woff) format(“embedded-opentype”),
+    url(/منابع/قلم/یکان.woff) format(“woff”),
+    url(fonts/Yekan.ttf) format(“truetype”),
+    url(fonts/Yekan.svg#BYekan) format(“svg”);
+  font-weight: normal;
+}
+
+* {
+  font-family: یکان;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/*  Footer */
+footer {
+  text-align: left;
+}
+
+.circleContainer {
+  padding: 2px;
+  background-color: black;
+  border: 2px solid gray;
+  text-align: center;
+  border-start-end-radius: 50%;
+  border-end-start-radius: 50%;
+}
+
+sup {
+  font-size: 9px;
+}
+
+/* general */
+h1,
+h2 {
+  color: #eee;
+}
+
+p {
+  color: gray;
+  letter-spacing: 0.75px;
+}
+
+a {
+  color: aquamarine;
+}
