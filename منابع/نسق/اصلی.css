@@ -26,6 +26,11 @@ header {
   text-align: center;
 }
 
+/*main*/
+img[width="896"] {
+  border-radius: 50%;
+}
+
 /*  Footer */
 footer {
   text-align: left;
