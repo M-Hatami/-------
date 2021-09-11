@@ -29,24 +29,18 @@ header {
 /*main*/
 img[width="896"] {
   border-radius: 50%;
-}
+} /* Special targeting: this is targeting any img that has an attribute of width that equals to 896
 
 /*  Footer */
 footer {
   text-align: left;
 }
 
-.circleContainer {
-  padding: 2px;
-  background-color: black;
-  border: 2px solid gray;
-  text-align: center;
-  border-start-end-radius: 50%;
-  border-end-start-radius: 50%;
-}
-
 sup {
   font-size: 9px;
+  padding: 7px 0 7px 0px;
+  border: 2px solid;
+  border-radius: 50%;
 }
 
 /* general */
