@@ -46,10 +46,34 @@ header {
   text-align: center;
 }
 
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
 /*main*/
 img[width="896"] {
   border-radius: 50%;
-} /* Special targeting: this is targeting any img that has an attribute of width that equals to 896
+} /* Special targeting: this is targeting any img that has an attribute of width that equals to 896 */
+
+.button {
+  border-radius: 4px;
+  color: #05a8aa;
+  display: block;
+  font-weight: 700;
+  width: 150px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #05a8aa;
+  border: 1px solid #05a8aa;
+  color: #fff;
+}
 
 /*  Footer */
 footer {
