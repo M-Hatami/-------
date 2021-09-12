@@ -1,3 +1,4 @@
+/* Universal Styles Section*/
 @font-face {
   font-family: "Yekan";
   src: url("../../fnt/Yekan.eot"); /* IE9 Compat Modes */
@@ -14,12 +15,31 @@
 
 * {
   font-family: "Yekan", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: black;
   text-align: center;
 }
+
+h1,
+h2 {
+  color: #eee;
+}
+
+p {
+  color: gray;
+  letter-spacing: 0.75px;
+}
+
+a {
+  color: aquamarine;
+}
+
+/* ====== End of Universal Styles ==== */
 
 /* Header */
 header {
@@ -34,26 +54,12 @@ img[width="896"] {
 /*  Footer */
 footer {
   text-align: left;
+  margin: 15px;
 }
 
 sup {
   font-size: 9px;
-  padding: 7px 0;
+  padding: 9px 0;
   border: 2px solid;
   border-radius: 50%;
-}
-
-/* general */
-h1,
-h2 {
-  color: #eee;
-}
-
-p {
-  color: gray;
-  letter-spacing: 0.75px;
-}
-
-a {
-  color: aquamarine;
 }
